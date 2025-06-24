@@ -1,0 +1,44 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore environment/config files
+.env
+*.env
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore virtual environments
+venv/
+ENV/
+env/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore PDF/image test files (if not part of core app)
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Ignore streamlit cache
+.streamlit/
+
+# Ignore rag index data (if generated dynamically)
+rag_index/
