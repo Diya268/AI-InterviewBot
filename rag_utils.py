@@ -12,7 +12,7 @@ REGION = "us-east-1"
 
 class RAGPipeline:
     def __init__(self):
-        self.pinecone_api_key = os.getenv("PINECONE_API_KEY", "pcsk_5nN9y_8B7dMTvgKtrLu1r2Mfpfaiiqd28cP1LtAubBebNi6uwKFhXbL8dqCJ1JHfELUWS")
+        self.pinecone_api_key = os.getenv("PINECONE_API_KEY")
         self.index_name = INDEX_NAME
         self.region = REGION
         self.embeddings = PineconeEmbeddings(model=EMBEDDING_MODEL, dimension=DIMENSIONS, api_key=self.pinecone_api_key)
