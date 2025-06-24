@@ -1,0 +1,12 @@
+$env:GROQ_API_KEY="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"   # For PowerShell
+#$env:GROQ_API_ENDPOINT="https://api.groq.com/v1/chat/completions"
+python Main.py
+$env:PINECONE_API_KEY="pcsk_5nN9y_8B7dMTvgKtrLu1r2Mfpfaiiqd28cP1LtAubBebNi6uwKFhXbL8dqCJ1JHfELUWS
+$env:PINECONE_ENV="us-east-1"
+$env:PINECONE_INDEX="resume-rag-index"
+$env:PINECONE_EMBEDDING_MODEL="all-MiniLM-L6-v2"
+$env:PINECONE_CHUNK_SIZE=500
+$env:PINECONE_CHUNK_OVERLAP=50
+$env:PINECONE_CLOUD="aws"
+$env:PINECONE_REGION="us-east-1"
+$env:PINECONE_SPEC="ServerlessSpec(cloud='aws', region='us-east-1')"
