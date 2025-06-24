@@ -11,7 +11,7 @@ from config import InterviewPrompt, QuestionsPrompt  ,EvaluationPrompt
 from rag_utils import get_rag_pipeline
 
 # ========== Configuration ==========
-API_KEY = "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"
+API_KEY = GROQ_API_KEY
 MODEL_NAME = "llama-3.1-8b-instant"
 
 # ========== Initialize ==========
